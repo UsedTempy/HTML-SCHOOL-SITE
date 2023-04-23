@@ -7,6 +7,8 @@
     <title>Parallax Website</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
     <header>
@@ -34,12 +36,103 @@
     </div>
     <div class="sec" id="sec">
         <h2>MY PROJECTS</h2>
-        <div class="col">
-            <div class="card card1">
-                <h5>AI Bagawat</h5>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis alias quas omnis velit iure, vitae suscipit error natus quod maiores? Culpa ipsa at autem aperiam esse assumenda sapiente iure doloribus?</p>
+
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card text-white bg-dark card h-100">
+                <img src="imgs/GameImage.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tank Game</h5>
+                  <p class="card-text">2D Tank game made within a month for a school project.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated on 4/23/2023</small>
+                </div>
+              </div>
             </div>
-        </div>
+            <div class="col">
+              <div class="card text-white bg-dark card h-100">
+                <img src="imgs/GameImage.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Race Game</h5>
+                  <p class="card-text">3D Car racing game made in 2 months for another school project.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated on 4/23/2023</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-white bg-dark card h-100">
+                <img src="imgs/GameImage.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tower Defense</h5>
+                  <p class="card-text">3D Tower Defense game on a circuit board in a sci-fi futuristic world this project was made with a team.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated on 4/23/2023</small>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="sec" id="sec">
+        <h2>ABOUT ME</h2>
+        <p>My name is <b>Ryan</b> and I'm a Software/Game Developer and study in the Netherlands in the province of Groningen. I have around 5 years' experience building and creating innovating experiences. I have a passion for creating fun and innovative things and I'm always excited to learn new things. </p>
+    </div>
+    <div class="sec" id="sec">
+        <section class="contact">
+            <div class="content">
+                <h2>Contact Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, eveniet quisquam!
+                Tempore mollitia maxime placeat culpa eveniet? Laboriosam placeat soluta iusto velit possimus, dolorum ex delectus doloremque ducimus, ratione esse.</p>
+            </div>
+            <div class="container">
+                <div class="contactInfo">
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-map-pin fa-beat"></i></div>
+                        <div class="text">
+                            <h3>Adress</h3>
+                            <p>Melkweg 1,<br>9718 EP,</br><br>Groningen</br></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-phone fa-shake"></i></div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>507-475-6094</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-envelope fa-bounce"></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>rxklooster@st.noorderpoort.nl</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactForm">
+                    <form>
+                        <h2>Send Message</h2>
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span>Full Name</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span>Type your Message..</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" name="" required="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
     </div>
 
     <script>
